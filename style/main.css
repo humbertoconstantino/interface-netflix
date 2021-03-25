@@ -1,3 +1,45 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /** box-sizing não deixa os elementos ultrapassarem
+    */
+    box-sizing: border-box;
+}
+
 body{
-    background-color: blue;
+    background: #141414;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    /** Poder utilizar o flexbox
+    */
+    display: flex;
+    flex-direction: row;
+    /**Alinha na vertical */
+    align-items: center;
+    /**Alinha na Horizontal */
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Arial; 
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
 }
