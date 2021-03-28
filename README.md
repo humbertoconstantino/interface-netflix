@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img alt="Biscoito" src=".github/full.png" width="70%">
-  <img alt="daSorte" src=".github/responsive.png"" width="30%">
+  <img alt="Biscoito" src=".github/full.png" width="80%">
+  <img alt="daSorte" src=".github/responsive.png"" width="60%">
 </p>
 
 ## :rocket: Technologies
